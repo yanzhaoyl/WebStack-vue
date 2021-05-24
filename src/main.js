@@ -12,6 +12,10 @@ import './assets/css/xenon-components.css'
 import './assets/css/xenon-skins.css'
 import './assets/css/nav.css'
 
+import axios from 'axios'
+Vue.prototype.$http = axios
+
+
 Vue.config.productionTip = false
 Vue.use(VueRouter)
 
